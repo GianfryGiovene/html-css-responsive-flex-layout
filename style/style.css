@@ -9,11 +9,66 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* / Generics */
 
 /* Utilities */
+
+.wrap{
+    display: flex;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+.white{
+    color: #fff;
+}
+
 /* / Utilities */
 
 
 /* Content */
+/**** HEADER ****/
+
+header{
+    background-color: #0084ff; 
+}
+
+header > .wrap{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items:baseline;
+    line-height: 70px;
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header nav > .wrap{
+    gap: 20px;
+}
+
+#get-started{
+    background-color: #fff ;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+/**** / HEADER ****/
+
+/**** MAIN ****/
+/**** / MAIN ****/
+
+/**** FOOTER ****/
+/**** / FOOTER ****/
+
 /* / Content */
