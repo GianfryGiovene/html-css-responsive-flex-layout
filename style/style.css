@@ -336,6 +336,47 @@ main{
 /* / third section */
 
 /* fourth section */
+#fourth-section{
+    background-color: #9692e6;
+}
+
+#fourth-section h2{
+    font-size: 2rem;
+    margin: 50px 0 30px;
+    text-align: center;
+}
+#fourth-section > .container > .wrap{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+#fourth-section > .container > .wrap > article{
+    width: calc(100% / 3 - 20px);
+    padding: 30px;
+    background-color: #f4f2fd
+}
+
+#fourth-section > .container > .wrap > article h4{
+    color: #9692e6;
+    font-size: 4rem;
+}
+
+#fourth-section > .container > .wrap > article h3{
+    color: #9692e6;
+    margin: 20px 0;
+}
+
+#fourth-section > .container > .wrap > article p{
+    color: grey;
+}
+
+#fourth-section > .container > .wrap > article a{   
+    display: inline-block;
+    margin: 20px 0 30px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: #9692e6;
+}
 /* / fourth section */
 
 /**** / MAIN ****/
