@@ -39,12 +39,21 @@ a{
     margin: auto;
 }
 
+.container-small{
+    width: 60%;
+    margin: auto;
+}
+
 .card{ 
     border-radius: 20px;
 }
 
 .img{
     background-color: coral;
+}
+
+.underline{
+    text-decoration: underline;
 }
 /* / Utilities */
 
@@ -213,11 +222,61 @@ main{
     font-weight: 400;
 }
 
-#first-section h4 span{
-    text-decoration: underline;
-}
 /* / first-section */
 
+/* second section */
+
+#second-section{
+    background-color: #9692e6;
+    padding: 100px 0 30px;
+}
+#second-section > div{
+    gap: 30px;
+}
+
+#second-section  article:first-child{
+    width: calc(100% / 2 - 30px);
+    
+}
+
+#second-section  article:first-child .img{
+    width: 100%;
+    height: 300px;
+    background-color: #caf0db;
+}
+
+#second-section  article:first-child h2{
+    margin: 80px 0 50px;
+}
+
+#second-section  article:nth-child(2){
+    width: calc(100% / 2 - 30px);
+    background-color: #fff;
+    align-self: flex-end;
+    border-radius: 40px;
+}
+
+#second-section  article:nth-child(2) .content{
+    padding: 6% ;
+    text-align: center;
+}
+
+#second-section  article:nth-child(2) p{
+    font-style: italic;
+}
+
+#second-section  article:nth-child(2) i{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #9692e6 ;
+}
+
+#second-section  article:nth-child(2) .img{
+    width: 100% ;
+    height: 200px;
+}
+/* / second section */
 /**** / MAIN ****/
 
 /**** FOOTER ****/
