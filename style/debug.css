@@ -1,0 +1,15 @@
+.debug main{
+    border: 1px dashed saddlebrown;
+}
+
+.debug section{
+    border: 1px dashed green;
+}
+
+.debug article{
+    border: 1px dashed red;
+}
+
+.debug article div{
+    border: 1px dashed yellow;
+}
