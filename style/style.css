@@ -44,6 +44,11 @@ a{
     margin: auto;
 }
 
+.container-extra-small{
+    width: 45%;
+    margin: auto;
+}
+
 .card{ 
     border-radius: 20px;
 }
@@ -433,6 +438,46 @@ main{
     margin-bottom: 30px;
 }
 /* / fifth section */
+
+/* sixth section */
+#call-to-action{
+    background-color: #9692e6;
+}
+
+#call-to-action > div{
+    margin: 70px auto;
+    align-items: center;
+    text-align: center;
+}
+
+#call-to-action > div div:first-child{
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+#call-to-action > div div:nth-child(2){
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#call-to-action > div div:nth-child(3){
+    color: #fcbf67;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#call-to-action > div a{
+    font-size: 1.3rem;
+    color: #9692e6;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* /sixth section */
 /**** / MAIN ****/
 
 /**** FOOTER ****/
