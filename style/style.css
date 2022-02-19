@@ -126,10 +126,11 @@ main{
     height: 100%;
 }
 #first-section article:first-child .text{
-    width: 45%;
-    align-items: flex-start;
+    width: 55%;
 } 
-
+#first-section article h2{
+    margin-bottom: 20px;
+}
 #first-section article:first-child a{
     display: inline-block;
     background-color: #0084ff;
@@ -138,10 +139,11 @@ main{
     margin-top: 20px;
 }
 
-#first-section article:first-child .img{
+#first-section article:first-child .img-large{
     width: 40%;
     align-self: flex-end;
     height: 120px;
+    background-color: coral ;
 }
 
 /* / first article */
@@ -157,9 +159,10 @@ main{
 #first-section article:nth-child(2) .wrap-column{
     align-items: center;
 }
-#first-section article:nth-child(2) .img{
+#first-section article .img{
     width: 100px;
     height: 100px;
+    margin-bottom: 30px;
 }
 
 #first-section article:nth-child(2) .text{
@@ -177,10 +180,7 @@ main{
 #first-section article:nth-child(3) .wrap-column{
     align-items: center;
 }
-#first-section article:nth-child(3) .img{
-    width: 100px;
-    height: 100px;
-}
+
 
 #first-section article:nth-child(3) .text{
     text-align: center;
@@ -197,10 +197,7 @@ main{
 #first-section article:nth-child(4) .wrap-column{
     align-items: center;
 }
-#first-section article:nth-child(4) .img{
-    width: 100px;
-    height: 100px;
-}
+
 
 #first-section article:nth-child(4) .text{
     text-align: center;
@@ -216,10 +213,6 @@ main{
 
 #first-section article:nth-child(5) .wrap-column{
     align-items: center;
-}
-#first-section article:nth-child(5) .img{
-    width: 100px;
-    height: 100px;
 }
 
 #first-section article:nth-child(5) .text{
@@ -314,11 +307,16 @@ main{
     color: #9692e6;
 }
 
-#third-section #reynolds{
-    background-color: #ffbfbf;
+#third-section #almeda,
+#third-section #reynolds,
+#third-section #roberts{
     gap: 10%;
     padding: 20px ;
     align-items: center;
+}
+
+#third-section #reynolds{
+    background-color: #ffbfbf;
 }
 
 #third-section .img{
@@ -337,16 +335,10 @@ main{
 
 #third-section #almeda{
     background-color: #feddaa;
-    gap: 10%;
-    padding: 20px ;
-    align-items: center;
 }
 
 #third-section #roberts{
     background-color: #b2e9cabf;
-    gap: 10%;
-    padding: 20px ;
-    align-items: center;
 }
 
 #third-section > div > h4{

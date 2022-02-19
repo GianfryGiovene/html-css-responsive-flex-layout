@@ -1,9 +1,7 @@
+/* media query for tablet */
 @media screen and (max-width: 850px) {
     /* Utilities */
-    .container{
-        width: 85%;
-        margin: auto;
-    }
+    .container, 
     .container-small{
         width: 85%;
     }
@@ -33,14 +31,15 @@
         align-items: center;
     }
 
-    #second-section  article:first-child{
+    #second-section  article:first-child,
+    #second-section  article:first-child .img,
+    #second-section article:last-child,
+    #second-section  article:nth-child(2) .img{
         width: 100%
     }
 
     #second-section  article:first-child .img{
-        width: 100%;
-        height: 500px;
-        background-color: #caf0db;
+        height: 500px; 
     }
 
     #second-section  article:first-child h2{
@@ -49,11 +48,9 @@
 
     #second-section article:last-child{
         align-self: center;
-        width: 100%;
     }
 
     #second-section  article:nth-child(2) .img{
-        width: 100% ;
         height: 500px;
     }
     /* / second section */
@@ -70,8 +67,6 @@
     #third-section .img{
         width: 170px;
         height: 170px;
-        background-color: yellow;
-        border-radius: 50%;
     }
     /* / third section */
 
@@ -79,8 +74,6 @@
 
     #fourth-section > .container > .wrap > article{
         width: calc(100% / 2 - 20px);
-        padding: 30px;
-        background-color: #f4f2fd
     }
     /* / fourth section */
 
@@ -92,6 +85,146 @@
 
     /* / fifth section */
     /* / main */
+}
 
+/* / media query for tablet */
+
+
+@media screen and (max-width: 390px) {
+    /* utilities */
+    .container,
+    .container-small{
+        width: 85%;
+    }
     
+    .container-extra-small{
+        width: 85%;
+    }
+
+    .wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* / utilities */
+
+    /* header */
+
+    header .wrap{
+        flex-direction: row;
+    }
+    /* / header */
+
+
+    /* main */
+    /* first section */
+
+    #first-section article:first-child,
+    #first-section article:first-child .text,
+    #first-section article:first-child .img-large,
+    #first-section article:nth-child(2),
+    #first-section article:nth-child(3),
+    #first-section article:nth-child(4),
+    #first-section article:nth-child(5),
+    #fifth-section #user-profile,
+    #fifth-section #about-us,#fourth-section > .container > .wrap > article{
+        width: 100%;       
+    }
+    
+    #first-section article:first-child .img-large{
+        align-self: stretch;
+        height: 120px;
+    }
+    #first-section article:first-child a{
+        margin-bottom: 20px;
+    }
+    /* / first section */
+    
+    /* second section */
+    #second-section  article:first-child .img{
+        height: 300px; 
+    }
+
+    #second-section  article:first-child h2{
+        font-size: 1.5rem;
+    }
+    /* / second section */
+
+    /* third section */
+    #third-section h3{
+        font-size: 1.2rem;
+    }
+    #third-section h2{
+        font-size: 1.4rem;
+    }
+
+    #third-section {
+        font-size: 1rem;
+    }
+
+    #third-section .img{
+        width: 190px;
+        height: 190px;
+    }
+    #third-section .text{
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;    }
+    /* / third section */
+
+    /* fourth section */
+
+    #fourth-section h2{
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+    
+    /* / fourth section */
+
+    /* fifth section */
+
+    #fifth-section h2{
+        font-size: 2rem;
+    }
+    #fifth-section #about-us p{
+        font-size: 1rem;
+    }
+
+    #fifth-section #user-profile p{
+        font-size: 1.3rem;
+    }
+    /* / fifth section */
+
+    /* sixth section */
+    #call-to-action > div div:nth-child(2){
+        font-size: 1.5rem;
+    }
+    
+    #call-to-action > div div:nth-child(3){
+        font-size: 3rem;
+    }
+    
+    #call-to-action > div p{
+        font-size: .8rem;
+    }
+
+    #call-to-action > div a{
+        font-size: 1rem;
+        padding: 20px 60px;
+        border-radius: 50px;
+    }
+
+    #call-to-action  div > span{
+        font-size: .8rem;
+    }
+    /* / sixth section */
+    /* / main */
+
+    /* footer */
+    
+    footer p,
+    footer >div > div{
+        font-size: 0.75rem;
+    }
+
+    /* / footer */
 }
