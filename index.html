@@ -14,6 +14,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/debug.css" />
+    <link rel="stylesheet" href="mediaQueries/mediaQueries.css" />
     <title>Blocks Layout</title>
 </head>
 
@@ -30,13 +31,16 @@
                     <li><a class="white" href="">About Us</a></li>
                     <li><a id="get-started" href="">Get Started</a></li>
                 </ul>
+
             </nav>
+            <button class="white"><i class="fas fa-bars"></i></button>
         </div>
     </header>
     <!-- / HEADER -->
 
     <!-- MAIN -->
     <main>
+        <!-- first section -->
         <section id="first-section">
             <div class="container wrap">
                 <!-- first article -->
@@ -115,7 +119,9 @@
             </div>
             <h4>Immage from <span class="underline">Freepik</span></h4>
         </section>
+        <!-- / first section -->
 
+        <!-- second section -->
         <section id="second-section">
             <div class="container-small wrap">
                 <article>
@@ -141,6 +147,9 @@
                 </article>
             </div>
         </section>
+        <!-- / second section -->
+
+        <!-- third section -->
         <section id="third-section">
             <div class="container-small wrap-column">
                 <div class="title">
@@ -178,9 +187,9 @@
                 </div>
                 <h4>Immage from <span class="underline">Freepik</span></h4>
             </div>
-
         </section>
         <!-- / third section -->
+
         <!-- fourth section -->
         <section id="fourth-section">
             <div class="container">
@@ -249,7 +258,7 @@
                         repellendus ea odit, error beatae laboriosam id placeat!</p>
                     <span>Images from <span class="underline">Freepik</span></span>
                 </div>
-                <div id="user-profile" class="wrap-column">
+                <div id="user-profile">
                     <div class="img"></div>
                     <p>I help companies Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     <a class="white" href="">Find me on Linkedin</a>
@@ -267,14 +276,13 @@
                     saepe id quae quidem eos nisi.</p>
                 <a href="">Get Started</a>
                 <div>
-                    <span class="white">Copyright 2021 nicepage.com &bull;<span class="underline">Terms of
-                            service</span> &bull;<span class="underline">Privaci polici</span></span>
-
+                    <span class="white">Copyright 2021 nicepage.com &bull;
+                        <span class="underline">Terms of service</span>
+                        &bull;
+                        <span class="underline">Privaci polici</span>
+                    </span>
                 </div>
-
-
             </div>
-
         </section>
         <!-- / sixth section -->
     </main>
@@ -282,7 +290,15 @@
 
     <!-- FOOTER -->
     <footer>
-
+        <div class="container-extra-small wrap-column">
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at veritatis, ipsa</p>
+            <div>
+                <div class="white">
+                    <span class="underline">Website Templates</span>
+                    created with
+                    <span class="underline">Website Builder Software</span>.
+                </div>
+            </div>
     </footer>
     <!-- / FOOTER -->
 </body>

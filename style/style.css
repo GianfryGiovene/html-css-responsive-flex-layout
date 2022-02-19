@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
 }
 
 a{
@@ -72,7 +73,6 @@ header{
 
 header > .wrap{
     height: 100%;
-   
     justify-content: space-between;
     align-items:baseline;
     line-height: 70px;
@@ -83,8 +83,14 @@ header > .wrap{
     font-weight: 700;
 }
 
+header button{
+    display: none;
+    border: none;
+    background: none;
+}
+
 header nav > .wrap{
-    gap: 20px;
+    gap: 15px;
 }
 
 #get-started{
@@ -222,7 +228,7 @@ main{
 /* / fifth article */
 
 #first-section h4{
-    margin-top: 40px;
+    margin: 40px 0 20px;
     text-align: center;
     font-weight: 400;
 }
@@ -254,11 +260,19 @@ main{
     margin: 80px 0 50px;
 }
 
+#second-section  article:first-child p{
+    margin-bottom: 20px;
+}
+
 #second-section  article:nth-child(2){
     width: calc(100% / 2 - 30px);
     background-color: #fff;
     align-self: flex-end;
     border-radius: 40px;
+}
+
+#second-section  article:nth-child(2) h2{
+    margin: 40px 0 20px;
 }
 
 #second-section  article:nth-child(2) .content{
@@ -289,6 +303,7 @@ main{
     gap: 40px;
 }
 #third-section .title{
+    padding-top: 30px;
     text-align: center;
     width: 90%;
     margin: auto;
@@ -296,6 +311,7 @@ main{
 
 #third-section .title h2{
     margin: 20px 0;
+    color: #9692e6;
 }
 
 #third-section #reynolds{
@@ -394,7 +410,7 @@ main{
     gap: 40px;
 }
 #fifth-section #about-us{
-    width: calc(70% - 20px);
+    width: calc(60% - 20px);
 }
 
 #fifth-section #about-us p{
@@ -402,8 +418,8 @@ main{
 }
 
 #fifth-section #user-profile{
-    width: calc(30% - 20px);
-    gap: 30px;
+    width: calc(40% - 20px);
+    
 }
 #fifth-section h2{
     font-size: 4rem;
@@ -419,18 +435,20 @@ main{
 }
 
 #fifth-section #user-profile p{
+    margin: 30px 0;
     font-size: 1.6rem;
     font-weight: 700;
     color: #9692e6;
 }
 
 #fifth-section #user-profile a{
+    display: inline-block;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     background-color: #9692e6;
     border-radius: 5px;
-    padding: 8px 25px;
+    padding: 8px 15px;
 
 }
 
@@ -457,7 +475,7 @@ main{
 
 #call-to-action > div div:nth-child(2){
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 400;
 }
 
@@ -465,13 +483,13 @@ main{
     color: #fcbf67;
     font-size: 5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #call-to-action > div a{
     font-size: 1.3rem;
     color: #9692e6;
-    padding: 20px 50px;
+    padding: 20px 100px;
     background-color: white;
     border-radius: 50px;
     margin-top: 30px;
@@ -481,6 +499,21 @@ main{
 /**** / MAIN ****/
 
 /**** FOOTER ****/
+footer{
+    background-color: #333333;
+    text-align: center;
+}
+
+footer p {
+    margin: 30px 0 50px;
+}
+
+footer >div > div{
+    margin-bottom: 30px;
+}
+footer span.underline{
+    color: #9692e6;
+}
 /**** / FOOTER ****/
 
 /* / Content */
