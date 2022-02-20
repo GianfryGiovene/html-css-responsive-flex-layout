@@ -132,8 +132,8 @@
     
     #first-section article:first-child .img-large{
         align-self: stretch;
-        height: 120px;
     }
+
     #first-section article:first-child a{
         margin-bottom: 20px;
     }
@@ -153,6 +153,7 @@
     #third-section h3{
         font-size: 1.2rem;
     }
+
     #third-section h2{
         font-size: 1.4rem;
     }
@@ -165,6 +166,7 @@
         width: 190px;
         height: 190px;
     }
+
     #third-section .text{
         margin-top: 20px;
         width: 90%;
@@ -185,6 +187,7 @@
     #fifth-section h2{
         font-size: 2rem;
     }
+    
     #fifth-section #about-us p{
         font-size: 1rem;
     }
