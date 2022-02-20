@@ -44,6 +44,7 @@
 
     #second-section  article:first-child h2{
         font-size: 3rem;
+        line-height: 50px;
     }
 
     #second-section article:last-child{
@@ -89,6 +90,7 @@
 
 /* / media query for tablet */
 
+/* media query for phone */
 
 @media screen and (max-width: 390px) {
     /* utilities */
@@ -231,3 +233,5 @@
 
     /* / footer */
 }
+
+/* / media query for phone */
